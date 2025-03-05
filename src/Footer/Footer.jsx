@@ -14,23 +14,23 @@ const Footer = () => {
 
 
         <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-7 text-gray-800 text-lg">
-          <Link to="/Privacy" className="hover:underline hover:text-blue-500 transition duration-300">
+          <Link to="/Privacy" className="hover:underline hover:text-orange-500 transition duration-300">
             Privacy Policy
           </Link>
-          <Link to="/Terms" className="hover:underline hover:text-blue-500 transition duration-300">
+          <Link to="/Terms" className="hover:underline hover:text-orange-500 transition duration-300">
             Terms and Conditions
           </Link>
-          <Link to="/Contact" className="hover:underline hover:text-blue-500 transition duration-300">
+          <Link to="/Contact" className="hover:underline hover:text-orange-500 transition duration-300">
             Contact Us
           </Link>
         </div>
 
 
         <div className="flex justify-center gap-6 text-gray-800 text-3xl cursor-pointer">
-          <MdOutlineFacebook className="hover:scale-110 hover:text-blue-500 transition-all duration-300" />
-          <FaTwitter className="hover:scale-110 hover:text-blue-500 transition-all duration-300" />
-          <FaInstagramSquare className="hover:scale-110 hover:text-blue-500 transition-all duration-300" />
-          <FaYoutube className="hover:scale-110 hover:text-blue-500 transition-all duration-300" />
+          <MdOutlineFacebook className="hover:scale-110 hover:text-orange-500 transition-all duration-300" />
+          <FaTwitter className="hover:scale-110 hover:text-orange-500 transition-all duration-300" />
+          <FaInstagramSquare className="hover:scale-110 hover:text-orange-500 transition-all duration-300" />
+          <FaYoutube className="hover:scale-110 hover:text-orange-500 transition-all duration-300" />
         </div>
       </div>
 

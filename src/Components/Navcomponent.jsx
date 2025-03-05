@@ -37,8 +37,8 @@ const NavComponent = () => {
               <NavLink
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-lg font-medium transition duration-300 hover:text-blue-500 ${
-                    isActive ? "font-bold text-blue-500" : "text-gray-900"
+                  `text-lg font-medium transition duration-300 hover:text-orange-500 ${
+                    isActive ? "font-bold text-orange-500" : "text-gray-900"
                   }`
                 }
               >
@@ -49,7 +49,7 @@ const NavComponent = () => {
           <li>
             <a
               href="https://wa.me/7010427770?text=Hi%20Melody%20Bites%2C%20I%20would%20like%20to%20place%20an%20order."
-              className="bg-blue-500 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-600 transition duration-300"
+              className="bg-orange-500 text-white px-5 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,8 +74,8 @@ const NavComponent = () => {
               <NavLink
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-xl font-medium transition duration-300 hover:text-blue-500 ${
-                    isActive ? "font-bold text-blue-500" : "text-gray-900"
+                  `text-xl font-medium transition duration-300 hover:text-orange-500 ${
+                    isActive ? "font-bold text-orange-500" : "text-gray-900"
                   }`
                 }
                 onClick={toggleMobileNav}
@@ -87,7 +87,7 @@ const NavComponent = () => {
           <li>
             <a
               href="https://wa.me/7010427770?text=Hi%20Melody%20Bites%2C%20I%20would%20like%20to%20place%20an%20order."
-              className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition duration-300"
+              className="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition duration-300"
               target="_blank"
               rel="noopener noreferrer"
               onClick={toggleMobileNav}

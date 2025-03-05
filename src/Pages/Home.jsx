@@ -52,7 +52,7 @@ const HomePage = () => {
       {/* Content Overlay */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center bg-black bg-opacity-50 px-6">
         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg animate-fadeIn">
-          Welcome to <span className="text-blue-400">Melody Bites</span>
+          Welcome to <span className="text-orange-400">Melody Bites</span>
         </h1>
         <p className="text-lg md:text-xl mt-4 max-w-2xl drop-shadow-md animate-slideUp">
           Enjoy delicious bites with a melody of flavors. Order now or explore our menu.
@@ -60,7 +60,7 @@ const HomePage = () => {
         <div className="mt-6 flex space-x-6 animate-fadeInSlow">
           <NavLink
             to="/menu"
-            className="bg-blue-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-600 transition-all shadow-lg"
+            className="bg-orange-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-orange-600 transition-all shadow-lg"
           >
             View Menu
           </NavLink>

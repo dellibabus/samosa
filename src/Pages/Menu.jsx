@@ -35,7 +35,7 @@ const MenuPage = () => {
             placeholder="Search menu..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full max-w-md px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition duration-200 ease-in-out"
+            className="w-full max-w-md px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 outline-none transition duration-200 ease-in-out"
           />
         </div>
 
@@ -53,12 +53,12 @@ const MenuPage = () => {
                   <h2 className="text-xl font-semibold text-gray-900">{item.name}</h2>
                   <p className="text-gray-600 text-sm mt-2">{item.description}</p>
                   <div className="flex justify-between items-center mt-4">
-                    <span className="text-lg font-bold text-blue-500">{item.price}</span>
+                    <span className="text-lg font-bold text-orange-500">{item.price}</span>
                     <a
                       href="https://wa.me/7010427770?text=Hi%20Melody%20Bites%2C%20I%20would%20like%20to%20place%20an%20order."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
+                      className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition"
                     >
                       Order Now
                     </a>
@@ -72,7 +72,7 @@ const MenuPage = () => {
             No items found 😞
             <button
               onClick={() => setSearchTerm("")}
-              className="ml-2 text-blue-500 hover:underline"
+              className="ml-2 text-orange-500 hover:underline"
             >
               Reset
             </button>
